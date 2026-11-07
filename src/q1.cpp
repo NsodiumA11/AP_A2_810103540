@@ -16,10 +16,8 @@ string type_machine(string str, int index) {
 }
 
 int main (){
-    while (true){
-        string str;
-        cin >> str;
-        cout << type_machine(str, 0) << endl;
+    string str;
+    while (cin >> str){
+        type_machine(str, 0);
     }
-
 }
